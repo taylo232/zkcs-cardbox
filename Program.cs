@@ -20,6 +20,8 @@ namespace zkcs
 
             Console.WriteLine($"SQLite version: {version}");
             db.Close();
+
+
         }
     }
 }
