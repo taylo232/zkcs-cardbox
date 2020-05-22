@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Title="zk">
+  <!--
+  xmlns="http : // schemas.microsoft.com/vs/2009/dgml"> 
+  -->
+  <Nodes>
+    <Node Id="guid-01" Label="snappy-label-01" />
+    <Node Id="guid-02" Label="snappy-label-02" />
+    <Node Id="guid-03" Label="snappy-label-03" />
+    <Node Id="guid-04" Label="snappy-label-04" />
+  </Nodes>
+  <Links>
+    <Link Source="guid-01" Target="guid-02" Label="" strength="7" />
+    <Link Source="guid-02" Target="guid-03" Label="" Strength="9"/>
+  </Links>
+  <Categories>
+   <!-- 
+   <Category Id="Person" Background="Orange" />
+   <Category Id="Automobile" Background="Yellow"/>
+   <Category Id="PassedTest" Label="Passed" Stroke="Black" Background="Green" />
+   <Category Id="FailedTest" Label="Failed" BasedOn="PassedTest" Background="Red" /> 
+   -->
+  </Categories>
+  <Properties>
+    <Property Id="strength" Label="strength" DataType="System.Int32" />
+  </Properties>
+</DirectedGraph>
+
