@@ -7,8 +7,7 @@ namespace zkcs
     class ZKnode
     {
         /*
-        zkcsmain
-        id, title, created, modified, summary, tags, file 
+        (zkcsmain - id, title, created, modified, summary, tags, file) 
         set and get fields
         set triggers a wrire
         get triggers a read
@@ -34,12 +33,12 @@ namespace zkcs
 
     class ZKlink
     {
-        // zkcslinks - id, source, target, strength, label
+        // (zkcslinks - id, source, target, strength, label)
     }
 
     class ZKtrail
     {
-        // zkcstrail - startnode, trail
+        // (zkcstrail - startnode, trail)
     }
 
 
