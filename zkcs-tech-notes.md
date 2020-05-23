@@ -2,7 +2,7 @@
 
 #### Design Choices:
 - graph database to store connections (nodes and edges)
-- local db to store node data
+- local db to store data
 - linked by guid
 - zettelkasten methodology
 
@@ -34,7 +34,7 @@
 |-----------|--------|--------------------------------------------------|
 | startnode | string | nominated starting id of a trail                 |
 | trail     | string | list of nominated connected nodes                |
-S
+
 
 
 #### Local DB Implementation Options
@@ -48,8 +48,8 @@ S
 - MongoDB
 
 ##### Location:
-- fanless (dev)
-- parish  (prod)
+- dev
+- prod
 
 
 
